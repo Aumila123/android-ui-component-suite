@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MDA_3_Lab</string>
+    <string name="label_pavadinimas">Pavadinimas</string>
+    <string name="hint_vardas">Įveskite vardą ir pavardę</string>
+    <string name="label_padalinys">Padalinys:</string>
+    <string name="hint_padalinys">Pasirinkite iš sąrašo padalinį</string>
+    <string name="label_sudetingumas">Sudėtingumas:</string>
+    <string name="label_laikas">Laikas:</string>
+    <string name="label_data">Data:</string>
+    <string name="label_miestas">Pasirinkite miestą</string>
+    <string name="label_registruoti">Registruoti</string>
+    <string name="btn_saugoti">SAUGOTI</string>
+    <string name="snackbar_action">Patvirtinu, informacija teisinga</string>
+
+    <!-- Bent 6 padaliniai pagal 2 ir 2.1 reikalavimą -->
+    <string-array name="padaliniai_array">
+        <item>Mechanikos ir medžiagotyros laboratorija</item>
+        <item>Informacinių technologijų centras</item>
+        <item>Elektronikos ir automatikos katedra</item>
+        <item>Biomedicinos inžinerijos institutas</item>
+        <item>Statybos konstrukcijų laboratorija</item>
+        <item>Fundamentaliųjų mokslų fakultetas</item>
+    </string-array>
+
+    <!-- Miestų sąrašas Spinner komponentui -->
+    <string-array name="miestai_array">
+        <item>Akmenė</item>
+        <item>Biržai</item>
+        <item>Vilnius</item>
+        <item>Kaunas</item>
+        <item>Klaipėda</item>
+    </string-array>
+</resources>
